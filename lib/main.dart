@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'home.dart';
-import 'imageViewer.dart';
 
-void main() => runApp(MaterialApp(
-      routes: {
-        '/': (context) => Home(),
-        '/image': (context) => ImageViewer(),
-      },
-    ));
+void main() => runApp(
+      MaterialApp(
+        title: 'Test Task for Scummers',
+        home: Container(),
+      ),
+    );
