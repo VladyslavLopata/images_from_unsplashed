@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:gallery/app.dart';
+import 'package:gallery/core/di/service_locator.dart';
 
-void main() => runApp(
-      MaterialApp(
-        title: 'Test Task for Scummers',
-        home: Container(),
-      ),
-    );
+void main() {
+  configureDependencies();
+
+  runApp(const App());
+}
